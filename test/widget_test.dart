@@ -1,9 +1,7 @@
-// This is a basic Flutter widget test.
+// Test de base pour l'application de recettes
 //
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
+// Ce test vérifie que l'application se charge correctement
+// et que les éléments principaux sont présents.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -11,20 +9,28 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:projetrecette/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('App loads and shows home screen', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Verify that the home screen loads
+    expect(find.text('What are you\ncooking today?'), findsOneWidget);
+    
+    // Verify that the search bar is present
+    expect(find.text('Search any recipes'), findsOneWidget);
+    
+    // Verify that Categories section is present
+    expect(find.text('Categories'), findsOneWidget);
+  });
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+  testWidgets('Bottom navigation bar is present', (WidgetTester tester) async {
+    // Build our app
+    await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify bottom navigation items are present
+    expect(find.text('Home'), findsOneWidget);
+    expect(find.text('Favorite'), findsOneWidget);
+    expect(find.text('Meal Plan'), findsOneWidget);
+    expect(find.text('Setting'), findsOneWidget);
   });
 }
