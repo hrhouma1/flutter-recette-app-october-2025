@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import '../constants.dart';
 import 'admin_page.dart';
+import 'test_firebase_page.dart';
 
 class AppMainScreen extends StatefulWidget {
   const AppMainScreen({Key? key}) : super(key: key);
@@ -248,6 +249,24 @@ class SettingsPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
+            
+            // Option Test Firebase
+            _buildSettingTile(
+              context: context,
+              icon: Icons.cloud_done,
+              title: 'Test Firebase',
+              subtitle: 'Vérifier la connexion Firebase',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TestFirebasePage(),
+                  ),
+                );
+              },
+            ),
+            
+            const Divider(height: 40),
             
             // Option Administration
             _buildSettingTile(

@@ -1,0 +1,65 @@
+{
+  "categories": {
+    "category_1": {
+      "name": "Breakfast",
+      "icon": "🍳",
+      "color": "FFE8B4"
+    },
+    "category_2": {
+      "name": "Lunch",
+      "icon": "🍱",
+      "color": "FFC4E1"
+    },
+    "category_3": {
+      "name": "Dinner",
+      "icon": "🍽️",
+      "color": "C4E1FF"
+    },
+    "category_4": {
+      "name": "Desserts",
+      "icon": "🍰",
+      "color": "FFD4D4"
+    },
+    "category_5": {
+      "name": "Appetizers",
+      "icon": "🥗",
+      "color": "D4FFD4"
+    },
+    "category_6": {
+      "name": "Soups",
+      "icon": "🍲",
+      "color": "FFE4C4"
+    },
+    "category_7": {
+      "name": "Beverages",
+      "icon": "🥤",
+      "color": "E4C4FF"
+    },
+    "category_8": {
+      "name": "Snacks",
+      "icon": "🍿",
+      "color": "FFFACD"
+    },
+    "category_9": {
+      "name": "Vegetarian",
+      "icon": "🥬",
+      "color": "C8E6C9"
+    },
+    "category_10": {
+      "name": "Seafood",
+      "icon": "🦐",
+      "color": "B3E5FC"
+    },
+    "category_11": {
+      "name": "Pasta",
+      "icon": "🍝",
+      "color": "FFCCBC"
+    },
+    "category_12": {
+      "name": "Pizza",
+      "icon": "🍕",
+      "color": "FFE0B2"
+    }
+  }
+}
+

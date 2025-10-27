@@ -1,1 +1,31 @@
-{"firestore":{"database":"default","location":"nam5","rules":"firestore.rules","indexes":"firestore.indexes.json"},"flutter":{"platforms":{"android":{"default":{"projectId":"flutter-recette-october-2025","appId":"1:378029160591:android:51e654757104ef02db98fa","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"flutter-recette-october-2025","configurations":{"android":"1:378029160591:android:51e654757104ef02db98fa","ios":"1:378029160591:ios:d4b3d96853cc3c9ddb98fa","macos":"1:378029160591:ios:d4b3d96853cc3c9ddb98fa","web":"1:378029160591:web:59be5d6b6a08a141db98fa","windows":"1:378029160591:web:406dd113a3e042d0db98fa"}}}}}}
+{
+  "firestore": {
+    "database": "default",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "flutter-recette-october-2025",
+          "appId": "1:378029160591:android:51e654757104ef02db98fa",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "flutter-recette-october-2025",
+          "configurations": {
+            "android": "1:378029160591:android:51e654757104ef02db98fa",
+            "ios": "1:378029160591:ios:d4b3d96853cc3c9ddb98fa",
+            "macos": "1:378029160591:ios:d4b3d96853cc3c9ddb98fa",
+            "web": "1:378029160591:web:59be5d6b6a08a141db98fa",
+            "windows": "1:378029160591:web:406dd113a3e042d0db98fa"
+          }
+        }
+      }
+    }
+  }
+}
