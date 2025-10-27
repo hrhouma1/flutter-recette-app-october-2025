@@ -1,4 +1,13 @@
-# Guide d'Administration - Initialisation Automatique des Catégories Firestore
+# Guide d'Administration - Méthode 2 : Initialisation Automatique des Catégories Firestore
+
+## Méthodes disponibles
+
+Ce guide présente la **méthode automatique** d'ajout des catégories. Pour la méthode manuelle via Firebase Console, consultez : [01-GUIDE_ADMIN_MANUEL.md](01-GUIDE_ADMIN_MANUEL.md)
+
+| Méthode | Temps | Compétences | Idéal pour |
+|---------|-------|-------------|------------|
+| [Méthode 1 - Manuelle](01-GUIDE_ADMIN_MANUEL.md) | 15-20 min | Navigation web | Apprentissage, test |
+| Méthode 2 - Automatique (ce guide) | 1 min | Utilisation app | Production, maintenance |
 
 ## Table des matières
 
