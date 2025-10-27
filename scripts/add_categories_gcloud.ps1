@@ -1,7 +1,7 @@
 # Script pour ajouter les catégories via gcloud et API REST Firestore
 # Exécutez ce script dans un terminal PowerShell EXTERNE (pas VS Code)
 
-$projectId = "flutter-recette-october-2025"
+$projectId = "flutter-recette-october-2025-1"
 
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "Ajout des catégories dans Firestore" -ForegroundColor Cyan
