@@ -42,18 +42,18 @@ Write-Host ""
 
 # Définir les catégories
 $categories = @(
-    @{name="Breakfast"; icon="🍳"; color="FFE8B4"},
-    @{name="Lunch"; icon="🍱"; color="FFC4E1"},
-    @{name="Dinner"; icon="🍽️"; color="C4E1FF"},
-    @{name="Desserts"; icon="🍰"; color="FFD4D4"},
-    @{name="Appetizers"; icon="🥗"; color="D4FFD4"},
-    @{name="Soups"; icon="🍲"; color="FFE4C4"},
-    @{name="Beverages"; icon="🥤"; color="E4C4FF"},
-    @{name="Snacks"; icon="🍿"; color="FFFACD"},
-    @{name="Vegetarian"; icon="🥬"; color="C8E6C9"},
-    @{name="Seafood"; icon="🦐"; color="B3E5FC"},
-    @{name="Pasta"; icon="🍝"; color="FFCCBC"},
-    @{name="Pizza"; icon="🍕"; color="FFE0B2"}
+    @{name="Breakfast"; color="FFE8B4"},
+    @{name="Lunch"; color="FFC4E1"},
+    @{name="Dinner"; color="C4E1FF"},
+    @{name="Desserts"; color="FFD4D4"},
+    @{name="Appetizers"; color="D4FFD4"},
+    @{name="Soups"; color="FFE4C4"},
+    @{name="Beverages"; color="E4C4FF"},
+    @{name="Snacks"; color="FFFACD"},
+    @{name="Vegetarian"; color="C8E6C9"},
+    @{name="Seafood"; color="B3E5FC"},
+    @{name="Pasta"; color="FFCCBC"},
+    @{name="Pizza"; color="FFE0B2"}
 )
 
 $url = "https://firestore.googleapis.com/v1/projects/$projectId/databases/(default)/documents/categories"
@@ -69,7 +69,6 @@ foreach ($category in $categories) {
     $body = @{
         fields = @{
             name = @{stringValue = $category.name}
-            icon = @{stringValue = $category.icon}
             color = @{stringValue = $category.color}
         }
     } | ConvertTo-Json -Depth 10
