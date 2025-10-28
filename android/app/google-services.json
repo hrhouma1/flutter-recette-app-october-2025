@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "378029160591",
-    "project_id": "flutter-recette-october-2025",
-    "storage_bucket": "flutter-recette-october-2025.firebasestorage.app"
+    "project_number": "778895779513",
+    "project_id": "flutter-recette-october-2025-1",
+    "storage_bucket": "flutter-recette-october-2025-1.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378029160591:android:51e654757104ef02db98fa",
+        "mobilesdk_app_id": "1:778895779513:android:53e85a211663cfb466dd68",
         "android_client_info": {
           "package_name": "com.example.projetrecette"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBLZSO1AggFvbbV-OSTw_BQw8QVkRJvZPc"
+          "current_key": "AIzaSyDOlU0vhgdrZKqfJYVxGIv8MjfMxmk9PgQ"
         }
       ],
       "services": {
